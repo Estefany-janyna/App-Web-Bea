@@ -1,0 +1,35 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosméticos Brillantes</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-pink-600 text-white p-4 text-center">
+        <h1 class="text-3xl font-bold">Cosméticos Brillantes</h1>
+    </header>
+
+    <!-- Filtros de Categorías -->
+    <section id="filtros" class="container mx-auto py-12">
+        <h3 class="text-3xl font-bold text-center mb-8">Filtrar por Categoría</h3>
+        <div class="flex justify-center space-x-6">
+            <button id="filtro-todo" class="bg-pink-600 text-white px-6 py-3 rounded-lg hover:bg-pink-700">Todo</button>
+            <button id="filtro-cuidado-facial" class="bg-pink-600 text-white px-6 py-3 rounded-lg hover:bg-pink-700">Cuidado Facial</button>
+            <button id="filtro-cuidado-corporal" class="bg-pink-600 text-white px-6 py-3 rounded-lg hover:bg-pink-700">Cuidado Corporal</button>
+        </div>
+    </section>
+
+    <!-- Productos -->
+    <section id="productos" class="container mx-auto py-12">
+        <h2 class="text-3xl font-bold text-center mb-8">Productos</h2>
+        <div id="productos-lista" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Los productos se cargarán aquí dinámicamente -->
+        </div>
+    </section>
+
+    <script src="../js/index.js"></script>
+</body>
+</html>

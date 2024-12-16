@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos Cosméticos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-pink-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-pink-200 p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-pink-600">Cosméticos Brillantes</h1>
+      <nav>
+        <ul class="flex space-x-4">
+            <li><a href="../html/index.html" class="text-pink-600 hover:underline">Inicio</a></li>
+            <li><a href="../html/categoria.html" class="text-pink-600 hover:underline">Categorías</a></li>
+          <li><a href="#contacto" class="text-pink-600 hover:underline">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-pink-100 text-center py-16">
+    <h2 class="text-4xl font-bold mb-4">Descubre la Belleza en Cada Producto</h2>
+    <p class="text-lg mb-6">Productos únicos para resaltar tu belleza natural.</p>
+    <a href="../html/categoria.html" class="bg-pink-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-pink-700">
+      Explorar Productos
+    </a>
+  </section>
+
+  <!-- Productos Section -->
+  <section id="productos" class="container mx-auto py-12">
+    <h3 class="text-3xl font-bold text-center mb-8">Nuestros Productos</h3>
+    <div id="productos-lista" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Productos dinámicos -->
+    </div>
+  </section>
+
+  <!-- Contacto Section -->
+  <section id="contacto" class="bg-pink-200 py-12">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-4">¡Contáctanos!</h3>
+      <p class="mb-6">Estamos aquí para responder a todas tus preguntas.</p>
+      <form class="max-w-md mx-auto">
+        <input type="text" placeholder="Nombre" class="w-full p-3 mb-4 border border-pink-300 rounded-lg">
+        <input type="email" placeholder="Correo" class="w-full p-3 mb-4 border border-pink-300 rounded-lg">
+        <textarea placeholder="Mensaje" class="w-full p-3 mb-4 border border-pink-300 rounded-lg"></textarea>
+        <button type="submit" class="bg-pink-600 text-white px-6 py-3 rounded-lg hover:bg-pink-700">
+          Enviar
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-pink-300 py-4 text-center text-pink-800">
+    © 2024 Cosméticos Brillantes. Todos los derechos reservados.
+  </footer>
+
+  <script src="../js/index.js"></script>
+</body>
+</html>

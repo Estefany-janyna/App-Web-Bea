@@ -1,0 +1,53 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Crema Hidratante",
+        "categoria": "Cuidado Facial",
+        "descripcion": "Una crema hidratante para todo tipo de piel.",
+        "precio": 15.99,
+        "imagen": "../img/1.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "Mascarilla Facial",
+        "categoria": "Cuidado Facial",
+        "descripcion": "Mascarilla regeneradora para la piel.",
+        "precio": 10.99,
+        "imagen": "../img/2.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Exfoliante Corporal",
+        "categoria": "Cuidado Corporal",
+        "descripcion": "Exfoliante para suavizar la piel.",
+        "precio": 12.99,
+        "imagen": "../img/3.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Exfoliante Corporal",
+        "categoria": "Cuidado Corporal",
+        "descripcion": "Exfoliante para suavizar la piel.",
+        "precio": 12.99,
+        "imagen": "../img/4.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "Exfoliante Corporal",
+        "categoria": "Cuidado Corporal",
+        "descripcion": "Exfoliante para suavizar la piel.",
+        "precio": 12.99,
+        "imagen": "../img/5.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "Exfoliante Corporal",
+        "categoria": "Cuidado Corporal",
+        "descripcion": "Exfoliante para suavizar la piel.",
+        "precio": 12.99,
+        "imagen": "../img/6.jpg"
+      }
+    ]
+  }
+  

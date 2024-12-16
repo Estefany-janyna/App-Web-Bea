@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalles del Producto - Cosméticos Brillantes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-pink-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-pink-200 p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-pink-600">Cosméticos Brillantes</h1>
+      <nav>
+        <ul class="flex space-x-4">
+            <li><a href="../html/index.html" class="text-pink-600 hover:underline">Inicio</a></li>
+            <li><a href="../html/categoria.html" class="text-pink-600 hover:underline">Categorías</a></li>
+          <li><a href="#contacto" class="text-pink-600 hover:underline">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Detalles del Producto -->
+  <section id="detalles" class="container mx-auto py-12">
+    <h3 class="text-3xl font-bold text-center mb-8" id="producto-nombre"></h3>
+    <div id="producto-detalle" class="flex justify-center space-x-8">
+      <!-- Detalles dinámicos -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-pink-300 py-4 text-center text-pink-800">
+    © 2024 Cosméticos Brillantes. Todos los derechos reservados.
+  </footer>
+
+  <!-- Script para cargar los detalles del producto -->
+  <script src="../js/detalles.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categorías - Cosméticos Brillantes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-pink-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-pink-200 p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-pink-600">Cosméticos Brillantes</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="../html/index.html" class="text-pink-600 hover:underline">Inicio</a></li>
+          <li><a href="../html/categoria.html" class="text-pink-600 hover:underline">Categorías</a></li>
+          <li><a href="#contacto" class="text-pink-600 hover:underline">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Filtros de Categorías -->
+  <section id="filtros" class="container mx-auto py-12">
+    <h3 class="text-3xl font-bold text-center mb-8">Filtrar por Categoría</h3>
+    <div class="flex justify-center space-x-6">
+      <button id="filtro-todo" class="bg-pink-600 text-white px-6 py-3 rounded-lg hover:bg-pink-700">Todo</button>
+      <button id="filtro-cuidado-facial" class="bg-pink-600 text-white px-6 py-3 rounded-lg hover:bg-pink-700">Cuidado Facial</button>
+      <button id="filtro-cuidado-corporal" class="bg-pink-600 text-white px-6 py-3 rounded-lg hover:bg-pink-700">Cuidado Corporal</button>
+    </div>
+  </section>
+
+  <!-- Productos Section -->
+  <section id="productos" class="container mx-auto py-12">
+    <h3 class="text-3xl font-bold text-center mb-8">Nuestros Productos</h3>
+    <div id="productos-lista" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Productos filtrados -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-pink-300 py-4 text-center text-pink-800">
+    © 2024 Cosméticos Brillantes. Todos los derechos reservados.
+  </footer>
+
+  <!-- Script para cargar productos por categoría -->
+  <script src="../js/categoria.js"></script>
+</body>
+</html>
